@@ -54,7 +54,7 @@ function CategorySection() {
           <p className="text-lightGray text-[1.125rem] font-[600] text-center">
             Category
           </p>
-          <p className="volkhov text-lightGreen text-[3.125rem] text-title font-[700] text-center">
+          <p className="volkhov text-lightGreen text-[2rem] text-title font-[700] text-center md:text-5xl">
             We Offer Best Services
           </p>
           <div className="grid grid-cols gap-6 md:grid-cols-2 lg:grid-cols-4">
