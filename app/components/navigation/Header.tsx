@@ -24,10 +24,10 @@ export default function Header() {
     }
 
     return (
-        <nav className={`${isOpen ? '' : 'sticky'} bg-gradient-to-r from-jungleGreen via-darkGreen to-jungleGreen z-30 w-full top-0 px-4 py-2 md:px-12 xl:px-48`}>
+        <nav className={`${isOpen ? '' : 'sticky'} bg-gradient-to-r from-jungleGreen via-darkGreen to-jungleGreen z-30 w-full top-0 px-4 py-1 md:py-2 md:px-12   2xl:px-[200px]`}>
             <div className="flex items-center space-x-10 justify-between">
                 <Link href="/">
-                    <Image src={logo} alt="Site Icon" className='w-[6rem] h-[4rem]' />
+                    <Image src={logo} alt="Site Icon" className='w-[4rem] h-[2.5rem] md:w-[6rem] md:h-[4rem]' />
                 </Link>
 
                 <div className="hidden space-x-5 text-white text-lg [&>a]:font-semibold [&>div>div>span]:font-semibold [&>div>div>div>a]:font-semibold [&>div>div>div>a]:text-lg md:flex md:flex-wrap md:items-center md:justify-center lg:space-x-7 lg:text-xl">
