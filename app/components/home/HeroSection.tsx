@@ -5,14 +5,14 @@ import Ochanda from '../../../public/images/Ochanda_sitting.jpg'
 
 function HeroSection() {
   return (
-    <section className="bg-jungleGreen py-16  w-full h-full px-4 md:px-12 lg:px-[72px] 2xl:px-[360px]">
-      <div className="flex flex-col space-y-12 justify-between items-center md:flex-row md:space-x-10 md:space-y-0">
+    <section className="bg-jungleGreen py-8  w-full h-full px-4 md:py-16 md:px-12 lg:px-[72px] 2xl:px-[360px]">
+      <div className="flex flex-col space-y-8 justify-between items-center sm:space-y-12 md:flex-row md:space-x-10 md:space-y-0">
         <div className="md:pt-4">
           <p className="text-[1.128rem] font-[700] text-lightGray uppercase mb-4">
             Best Hiking Adventure in Hawaii.
           </p>
           <div className="flex ">
-            <p className="volkhov font-[700] text-[3rem] md:text-5xl leading-large text-white xl:text-6xl">
+            <p className="volkhov font-[700] text-[2rem] md:text-5xl leading-large text-white xl:text-6xl">
               <span>Travel, enjoy and experience the</span> <span className="text-lightGreen">island with your personal guide.</span>
             </p>
           </div>
@@ -45,4 +45,4 @@ function HeroSection() {
   );
 }
 
-export default HeroSection;
+export default HeroSection
