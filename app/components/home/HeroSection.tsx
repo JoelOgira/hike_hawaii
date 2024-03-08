@@ -18,9 +18,7 @@ function HeroSection() {
           </div>
 
           <p className="my-[1.6rem] font-bold leading-[1.692rem] text-lightGray text-[1rem] md:max-w-md">
-            Built Wicket longer admire do barton vanity itself do in it. Preferred
-            to sportsmen it engrossed listening. Park gate sell they west hard for
-            the.
+            Begin your exploration into the lush jungles, beautiful beaches, and ascending terrains with us Today. We aim to provide with a memorable adventure of your life.
           </p>
 
           <div className="flex gap-6 items-center ">
