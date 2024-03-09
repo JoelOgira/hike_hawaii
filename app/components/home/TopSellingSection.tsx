@@ -29,9 +29,9 @@ function TopSellingSection() {
     {
       id: 3,
       imageUrl: Hawaii3,
-      title: "Hou, Ohia",
+      title: "Maiha, Ohia",
       amount: "$180",
-      duration: "5 hrs hike",
+      duration: "4 hrs hike",
     },
   ];
   return (
