@@ -33,7 +33,7 @@ function HeroSection() {
         <div className="block">
           <Image
             src={Ochanda}
-            alt="Calvince Ochanda Resting after a long hike"
+            alt="Calvince watching Hawaiian seas."
             className="rounded-[1.5rem]"
           />
         </div>
