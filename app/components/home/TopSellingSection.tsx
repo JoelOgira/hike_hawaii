@@ -2,33 +2,34 @@ import DestinationCard from "../cards/DestinationCard"
 import Hawaii1 from '../../../public/images/hawaii-4843610_640.jpg'
 import Hawaii2 from '../../../public/images/hawaii-5074302_960_720.jpg'
 import Hawaii3 from '../../../public/images/nofilter-3308714_640.jpg'
+import Hawaii4 from "../../../public/images/trail-1.jpeg"
 
 function TopSellingSection() {
   const destinations = [
     {
-      id: 0,
-      imageUrl: Hawaii1,
+      id: 1,
+      imageUrl: Hawaii4,
       title: "Ohana, Maui",
       amount: "$150",
       duration: "4 hrs hike"
     },
     {
-      id: 1,
+      id: 2,
       imageUrl: Hawaii2,
       title: "Kahula, Matatina",
       amount: "$200",
       duration: "6 hrs hike"
     },
     {
-      id: 2,
+      id: 3,
       imageUrl: Hawaii3,
       title: "Hou, Ohia",
       amount: "$180",
       duration: "5 hrs hike",
     },
     {
-      id: 3,
-      imageUrl: Hawaii3,
+      id: 4,
+      imageUrl: Hawaii1,
       title: "Maiha, Ohia",
       amount: "$180",
       duration: "4 hrs hike",
