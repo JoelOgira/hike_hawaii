@@ -33,7 +33,7 @@ export default function Header() {
 
                 <div className="hidden space-x-5 text-white text-lg [&>a]:font-semibold [&>div>div>span]:font-semibold [&>div>div>div>a]:font-semibold [&>div>div>div>a]:text-lg md:flex md:flex-wrap md:items-center md:justify-center lg:space-x-7 lg:text-xl">
                     {/* <div className="hidden"> */}
-                    <Link href="/" className="hover:text-limeGreen">Home</Link>
+                    {/* <Link href="/" className="hover:text-limeGreen">Home</Link> */}
                     {/* <Link href="/services" className="hover:text-limeGreen">Services</Link>
                     <Link href="/about" className="hover:text-limeGreen">About</Link> */}
                     {/* <div onMouseEnter={handleAbout} onMouseLeave={handleAbout} onClick={handleAbout} className="cursor-pointer z-30">
@@ -62,7 +62,7 @@ export default function Header() {
                         <Link className='flex items-center space-y-2 flex-col' href={`/#`}>
                             <span className='flex items-center space-x-3'>
                                 <span> <FaMobile /> </span>
-                                <span>Call Us</span>
+                                <span>Book Today</span>
                             </span>
                             <span>+198-(112)-67232</span>
                         </Link>
@@ -116,7 +116,7 @@ export default function Header() {
                             <Link className='flex items-center space-y-1 flex-col' href={`/#`}>
                                 <span className='flex items-center space-x-3'>
                                     <span> <FaMobile /> </span>
-                                    <span>Call Us</span>
+                                    <span>Book Today</span>
                                 </span>
                                 <span>+198-(112)-67232</span>
                             </Link>
