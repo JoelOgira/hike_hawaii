@@ -8,35 +8,35 @@ import mic from '../../../public/images/mic.png'
 function CategorySection() {
   const features = [
     {
-      id: 0,
-      iconUrl: satellite,
-      title: "Calculated Weather",
-      description:
-        "Built Wicket longer admire do barton vanity itself do in it.",
-      highlighted: false,
-    },
-    {
       id: 1,
-      iconUrl: aircraft,
-      title: "Best Flights",
+      iconUrl: satellite,
+      title: "Weather",
       description:
-        "Engrossed listening. Park gate sell they west hard for the.",
-      highlighted: true,
+        "You're invited to the beautiful Hawaii weather.",
+      highlighted: false,
     },
     {
       id: 2,
-      iconUrl: mic,
-      title: "Local Events",
+      iconUrl: aircraft,
+      title: "Best Flights",
       description:
-        "Barton vanity itself do in it. Preferd to men it engrossed listening. ",
-      highlighted: false,
+        "Smooth traveling experience withing the island.",
+      highlighted: true,
     },
     {
       id: 3,
+      iconUrl: mic,
+      title: "Local Events",
+      description:
+        "Best entertainment venues across Honolulu.",
+      highlighted: false,
+    },
+    {
+      id: 4,
       iconUrl: cog,
       title: "Customization",
       description:
-        "We deliver outsourced aviation services for military customers",
+        "We deliver a personalized hiking experience.",
       highlighted: false,
     },
   ];
