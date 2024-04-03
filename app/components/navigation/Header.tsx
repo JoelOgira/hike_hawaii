@@ -4,6 +4,7 @@ import Link from 'next/link'
 import { useState } from 'react'
 import Image from 'next/image'
 import logo from '../../../public/images/logo.png'
+import { FaMobile } from 'react-icons/fa'
 
 export default function Header() {
 
@@ -24,7 +25,7 @@ export default function Header() {
     }
 
     return (
-        <nav className={`${isOpen ? '' : 'sticky'} bg-gradient-to-r from-jungleGreen via-darkGreen to-jungleGreen z-30 w-full top-0 px-4 py-1 md:py-2 md:px-12   2xl:px-[200px]`}>
+        <nav className={`${isOpen ? '' : 'sticky'} bg-gradient-to-r from-jungleGreen via-darkGreen to-jungleGreen z-30 w-full top-0 px-4 py-[0.375rem] md:py-2 md:px-12   2xl:px-[200px]`}>
             <div className="flex items-center space-x-10 justify-between">
                 <Link href="/">
                     <Image src={logo} alt="Site Icon" className='w-[4rem] h-[2.5rem] md:w-[6rem] md:h-[4rem]' />
@@ -53,6 +54,19 @@ export default function Header() {
                             </div>}
                     </div> */}
                     {/* <Link href="/components/contact" className="hover:text-limeGreen">Contact Us</Link> */}
+                    <button
+                        className='bg-limeGreen
+                            px-8 py-3 rounded-full text-jungleGreen text-sm
+                            hover:scale-105 hover:ease-in-out hover:duration-200'
+                    >
+                        <Link className='flex items-center space-y-2 flex-col' href={`/#`}>
+                            <span className='flex items-center space-x-3'>
+                                <span> <FaMobile /> </span>
+                                <span>Call Us</span>
+                            </span>
+                            <span>+198-(112)-67232</span>
+                        </Link>
+                    </button>
                 </div>
 
 
@@ -94,6 +108,19 @@ export default function Header() {
                             }
                         </div> */}
                         {/* <Link onClick={() => { handleOpen(); handleHidden() }} href="/contact">Contact Us</Link> */}
+                        <button
+                            className='bg-limeGreen
+                            px-4 py-2 rounded-md text-jungleGreen text-sm
+                            hover:scale-105 hover:ease-in-out hover:duration-200'
+                        >
+                            <Link className='flex items-center space-y-1 flex-col' href={`/#`}>
+                                <span className='flex items-center space-x-3'>
+                                    <span> <FaMobile /> </span>
+                                    <span>Call Us</span>
+                                </span>
+                                <span>+198-(112)-67232</span>
+                            </Link>
+                        </button>
                     </div>
                 </div>
             </div>
